@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Lab1</title>
+    </head>
+    <body style="box-sizing: border-box; margin: 0; padding: 0">
+        <form>
+            <label><h1>Заповнити форму для складання іспитів</h1></label>
+
+            <label style="margin: 10px">Прізвище:</label>
+            <input type="text" value="Петренко">
+            <br>
+            <div style="margin-top: 20px">
+                <label style="margin: 10px">З цього списку вибери район, де проживаєш:</label>
+                <select>
+                    <option>Сихівський</option>
+                    <option>Личаківський</option>
+                    <option>Галицький</option>
+                    <option>Франківський</option>
+                    <option>Шевченківський</option>
+                </select>
+            </div>
+            <br>
+            <div style="margin-top: 20px">
+                <label style="margin: 10px">Зазнач мову, якою складатимеш іспити:</label>
+                <div>
+                    <label>
+                        <input type="radio" name="checkboxLanguage">
+                        Українська
+                        <br>
+                    </label>
+                    <label>
+                        <input type="radio" name="checkboxLanguage">
+                        English
+                        <br>
+                    </label>
+                    <label>
+                        <input type="radio" name="checkboxLanguage">
+                        Polsky
+                        <br>
+                    </label>
+                </div>
+            </div>
+            <div style="margin-top: 20px">
+                <label style="margin: 10px">Вибери іспити:</label>
+                <div >
+                    <label>
+                        <input type="checkbox" name="checkboxLanguage">
+                        Українська мова та література
+                        <br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="checkboxLanguage">
+                        Математика
+                        <br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="checkboxLanguage">
+                        Англійська мова
+                        <br>
+                    </label>
+                </div>
+            </div>
+            <div style="margin-top: 20px">
+                <input type="submit" value="Надіслати">
+                <input type="reset" value="Оновити дані">
+            </div>
+        </form>
+    </body>
+</html>

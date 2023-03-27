@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Lab1</title>
+        <style>
+            body {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+                min-height: 99vh;
+                width: 100vw;
+            }
+            .topContainer {
+                height: 40%;
+                border: 1px solid black;
+                display: flex;
+            }
+            .topContainer > .topTextBlock {
+                height: 100%;
+                width: 50%;
+                border: 1px solid black;
+            }
+            .topContainer > .topImageBlock {
+                height: 100%;
+                width: 50%;
+                border: 1px solid black;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .topContainer > .topImageBlock > img {
+                width: 200px;
+                height: 210px;
+            }
+
+            .bottomContainer {
+                height: 60%;
+                border: 1px solid black;
+                display: flex;
+            }
+            .bottomContainer > .bottomTextContainer {
+                height: 100%;
+                width: 50%;
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="topContainer">
+            <div class="topTextBlock"></div>
+            <div class="topImageBlock">
+                <img src="image.png">
+                <img src="image.png">
+                <img src="image.png">
+                <img src="image.png">
+                <img src="image.png">
+                <img src="image.png">
+            </div>
+        </div>
+        <div class="bottomContainer">
+            <div class="bottomTextContainer"></div>
+            <div class="bottomTextContainer"></div>
+        </div>
+    </body>
+</html>
